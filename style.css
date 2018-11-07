@@ -1,0 +1,44 @@
+@font-face{
+  font-family: Karla;
+  src: url(./fonts/Karla-Regular.ttf);
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  position: relative;
+  font-family: Karla, Arial, sans-serif;
+  color: #222;
+}
+body{
+  background-color: #eee;
+}
+#layout{
+  display: grid;
+  grid-template-columns: minmax(200px, 600px);
+  justify-content: center;
+  margin-top: 2rem;
+}
+#page{
+  display: grid;
+  grid-template-columns: 3fr 5fr;
+  padding: 0 .2rem 0 .2rem;
+}
+#top-bar{
+  display: grid;
+}
+#top-bar__list{
+  list-style: none;
+  text-align: right;
+  padding-right: 1rem;
+}
+#top-bar__component h3 {
+  text-align: right;
+  padding-right: 1rem;
+  margin-bottom: .3rem;
+}
+#content{
+  border-left: 1px solid blue;
+  padding-left: 1rem;
+  padding-top: 3rem;
+}
