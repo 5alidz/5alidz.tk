@@ -4,8 +4,8 @@ if (typeof window.__data === 'undefined') {
 
 window.__data = {
   About: {
-    title: 'About Me {...}',
-    body: 'currently based in Riyadh, <strong>fullstack</strong> web dev',
+    title: 'Who Am I {...}',
+    body: 'Fullstack web developer based in Riyadh',
     sideNote: '* The easist way to contact me is throught twitter dms'
   },
   Projects: {
