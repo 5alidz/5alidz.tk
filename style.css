@@ -25,7 +25,7 @@ body{
 .content {
   margin-left: .4rem;
   padding: .4rem;
-  border-left: 1px solid #aaa;
+  border-left: 4px solid #ccc;
 }
 .content > li {
   padding: .1rem 0;
@@ -35,7 +35,7 @@ body{
   align-items: center;
 }
 .links-text {
-  padding-left: .2rem;
+  padding-left: .4rem;
 }
 .logo{
   display: inline-block;
