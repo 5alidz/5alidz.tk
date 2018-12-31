@@ -11,6 +11,7 @@ body{background-color: #eee;}
 #top-bar {
   display: flex;
   justify-content: space-between;
+  align-itmes: center;
   padding: .2rem 0rem;
 }
 #layout {
@@ -23,7 +24,10 @@ body{background-color: #eee;}
   color: #222;
 }
 #target {
-  padding-top: 1rem;
+  padding-top: .5rem;
+}
+.tab-content {
+  animation: enter .2s ease-in-out;
 }
 .tab {
   border: none;

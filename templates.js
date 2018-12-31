@@ -1,13 +1,15 @@
 window.templates = {
   about: `
-  <p>hello, my name is khaled zakaria and i'm a web developer based in riyadh saudi arabia.</p>
-  <br>
-  <p>i love helping people, contact me via email or twitter.</p>
+  <div class="tab-content">
+    <p>hello, my name is khaled zakaria and i'm a web developer based in riyadh saudi arabia.</p>
+    <br>
+    <p>i love helping people, contact me via email or twitter.</p>
+  </div>
   `.trim(),
-  projects: '',
-  blog: '',
+  projects: ``.trim(),
+  blog: ``.trim(),
   links: `
-  <ul class='links-container'>
+  <ul class='links-container tab-content'>
     <li>
       <div class='link'>
         <i class='fab fa-twitter' style='color: #38A1F3'></i>
