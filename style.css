@@ -13,11 +13,21 @@ ul, li {list-style: none;}
   border: 1px solid #aaa;
   background-color: #eee;
 }
-.dark {color: #eee;background-color: #222;}
-.light {color: #333;background-color: #eee;}
+.brd-b-card-light {border-bottom: 5px solid #bbb;}
+.brd-b-card-dark {border-bottom: 5px solid black;}
+.brd-l-card-light { border-left: 2px solid #bbb; }
+.brd-l-card-dark{ border-left: 2px solid black; }
+.brd-t-card-light {border-top: 1px solid #d7e8e4;}
+.brd-t-card-dark {border-top: 1px solid #282827;}
+.card-light { background-color: white; }
+.card-dark { background-color: #111; }
+
+.dark {color: #eee;background-color:#211f1c;}
+.light {color: #2d302f;background-color:#e8edec;}
+
 .white {background-color: white;}
 
-.pd-all {padding: .4rem;}
+.pd-all {padding: .3rem;}
 .pd-l {padding-left: .4rem;}
 .pd-t {padding-top: .4rem;}
 .pd-r {padding-right: .4rem;}
@@ -39,6 +49,9 @@ ul, li {list-style: none;}
 .align-t {align-items: top;}
 .align-b {align-items: bottom;}
 
+.smaller { font-size: .9rem; }
+.lighter-light { color: #888; }
+.lighter-dark { color: #888; }
 .enter {animation: enter .1s ease-in-out;}
 
 .grid {display: grid;}
@@ -60,28 +73,32 @@ ul, li {list-style: none;}
 .brd-all-dark{border: 1px solid #eee}
 
 .pointer {cursor: pointer;}
-.no-select {user-select: none;}
+.no-select {
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
 .round {border-radius: 50%;}
 .brdr-r {border-radius: 4px;}
 .bold {font-weight: bold;}
 .active-tab {color: #eee;background-color:#333;}
-
+/* links */
 .light-link {color: blue; }
 .light-link:visited {color: purple;}
 .dark-link {color: skyblue;}
-.dark-link:visited {color: pink;}
+.dark-link:visited {color: #ff9282;}
 
 .tabs-brdr-light {border-bottom: 1px solid #333;}
-.tabs-brdr-dark {border-bottom: 1px solid orange;}
+.tabs-brdr-dark {border-bottom: 1px solid #ff9282;}/*orange*/
 
 .active-tab-light {background-color: #333; color: #eee;}
-.active-tab-dark {background-color: orange; color: #222;}
+.active-tab-dark {background-color: #ff9282; color: #222;}
 
 @media only screen and (max-width: 688px) {
   .tabs-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    border-bottom: 1px solid #333;
   }
 }
 @keyframes enter {

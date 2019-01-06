@@ -20,25 +20,29 @@
     <title>5alidz</title>
   </head>
   <body dir="ltr" class='light'>
+
     <div class='grid g-minmax g-gap just-c enter pd-all light'>
+
       <div class='flex just-sb align-c pd-t pd-b light'>
         <a href="https://5alidz.tk" style='text-decoration:none;' class='light'>
           <h1>5alidz</h1>
         </a>
-        <button id='theme-btn' class='night-mode flex light brdr-r align-c'>
-          <i class="far fa-moon pd-r" id='theme-indicator'></i>
-          <p id='current-theme'>Dark</p>
+        <button id='theme-btn' class='night-mode no-select flex light brdr-r align-c smaller'>
+          <i class="far fa-moon pd-r smaller" id='theme-indicator'></i>
+          <p id='current-theme' class='smaller'>Dark</p>
         </button>
       </div>
 
       <div class='tabs-container flex brd-b light'>
-        <a class='tab btn-pd txt-c pointer bold active-tab active-tab-light'>Projects</a>
-        <a class='tab btn-pd txt-c pointer bold'>About</a>
-        <a class='tab btn-pd txt-c pointer bold'>Blog</a>
+        <a class='tab no-select btn-pd txt-c pointer bold active-tab active-tab-light'>Projects</a>
+        <a class='tab no-select btn-pd txt-c pointer bold'>About</a>
+        <a class='tab no-select btn-pd txt-c pointer bold'>Blog</a>
       </div>
 
       <div id='target' class='pd-t light'></div>
     </div>
+
+    <script src='projects.js'></script>
     <script src='templates.js'></script>
     <script src='main.js'></script>
   </body>
